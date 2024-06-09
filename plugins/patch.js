@@ -277,7 +277,7 @@ astro_patch.smd(
       ) {
         menuThemeHeader = "⍟⍟⍟ *" + Config.botname + "* ⍟⍟⍟\n┋⍟╭──────────────";
         menuThemeCommandPrefix = "┋❃│";
-        menuThemeFooter = "┋❃╰───────────────\n╰═════════════════⍟";
+        menuThemeFooter = "┋⍟╰───────────────\n╰═════════════════⍟";
         menuThemeCategoryHeader = "╭─⍟";
         menuThemeCategoryFooter = "⍟";
         menuThemeCommandPrefix = "┋⍟┃";
