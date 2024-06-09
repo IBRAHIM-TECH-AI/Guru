@@ -143,7 +143,7 @@ smd(
    }
  });
  smd({
-   cmdname: "test",
+   cmdname: "test1",
    alias: ["check", "checkbot"],
    desc: "Check bot is active?",
    category: "misc",
