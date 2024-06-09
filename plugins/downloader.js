@@ -990,7 +990,7 @@ smd(
    }
  );
  smd({
-   pattern: "apk",
+   pattern: "apk2",
    alias: ["modapk"],
    desc: "Downloads apks  .",
    category: "downloader",
@@ -1052,7 +1052,7 @@ smd(
    }
  });
  cmd({
-   pattern: "apks",
+   pattern: "apks3",
    alias: ["apksearch"],
    desc: "Search App",
    category: "downloader",
@@ -1667,7 +1667,7 @@ smd(
    }
  );
  smd({
-   pattern: "play",
+   pattern: "play55",
    alias: ["audio"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
