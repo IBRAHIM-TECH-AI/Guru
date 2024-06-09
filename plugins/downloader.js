@@ -1667,7 +1667,7 @@ smd(
    }
  );
  smd({
-   pattern: "play55",
+   pattern: "play",
    alias: ["audio"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
