@@ -386,7 +386,7 @@ smd({
 });
 let pmtypes = ["videoMessage", "imageMessage"];
 cmd({
-  pattern: "url",
+  pattern: "url1",
   alias: ["createurl"],
   category: "general",
   filename: __filename,
