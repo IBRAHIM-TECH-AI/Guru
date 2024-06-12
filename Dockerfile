@@ -1,13 +1,13 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/kingibrahimtech/Black-panther-md-x.git /root/kingibrahimtech
+RUN git clone https://github.com/IBRAHIM-TECH-AI/Guru.git /root/IBRAHIM-AI-TECH
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/kingibrahimtech/node_modules
+RUN rm -rf /root/IBRAHIM-AI-TECH/node_modules
 
 # Install dependencies
-WORKDIR /root/kingibrahimtech
+WORKDIR /root/IBRAHIM-AI-TECH
 RUN npm install
 
 # Add additional Steps To Run...
