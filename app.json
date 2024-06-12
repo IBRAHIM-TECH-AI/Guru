@@ -1,7 +1,7 @@
 {
-  "name": "black-panther-md-x5",
+  "name": "BOTGURU",
   "description": "Simple WhatsApp Bot",
-  "logo": "https://github.com/kingibrahimtech/Black-panther-md-x/blob/main/lib/assets/logo.png?raw=true",
+  "logo": "https://telegra.ph/file/1e19a6ce2ce73e584959f.jpg",
   "keywords": ["WASI-MD-V2", "WASIV2", "WASI MD","WASI MD","wasi","wasitech"],
   "success_url": "/",
   "stack": "container",
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔",
+      "value": "Mr Guru",
       "required": true
     },
 
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "𝐵𝐿𝐴𝐶𝐾 𝑃𝐴𝑁𝑇𝐻𝐸𝑅 𝘔𝘋"
+      "value": "BOTGURU-MD"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -90,7 +90,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254710772666,25739937062"
+      "value": "0728842688,0784103346"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,7 +102,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔",
+      "value": "Mr Guru",
       "required": false
     },
     "PACK_AUTHER": {
