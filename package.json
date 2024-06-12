@@ -1,19 +1,19 @@
 {
-   "name": "Pantherx5",
+   "name": "gurumd",
    "version": "3.5.0",
    "description": "Simple WhatsApp Bot",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-     "run": "pm2 start . --deep-monitoring --attach --name Panther || node .",
-     "asta": "pm2 start . --deep-monitoring --attach --name Panther || node .",
-     "start": "pm2 start . --attach --name Panther",
-     "stop": "pm2 stop Panther",
-     "old-heroku-postbuild": "git clone https://github.com/kingibrahimtech/Black-panther-md-x.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-     "fis-heroku-postbuild": "git clone https://github.com/kingibrahimtech/Black-panther-md-x.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+     "run": "pm2 start . --deep-monitoring --attach --name gurumd || node .",
+     "asta": "pm2 start . --deep-monitoring --attach --name gurumd || node .",
+     "start": "pm2 start . --attach --name gurumd",
+     "stop": "pm2 stop gurumd",
+     "old-heroku-postbuild": "git clone https://github.com/IBRAHIM-TECH-AI/Guru.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+     "fis-heroku-postbuild": "git clone https://github.com/IBRAHIM-TECH-AI/Guru.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
      "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "kingibrahimtech",
+   "author": "IBRAHIM-AI-TECH",
    "license": "GPL-2.0 license",
    "dependencies": {
      "@adiwajshing/keyed-db": "^0.2.4",
